@@ -324,10 +324,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHP Web Page.lottery" />
+      <item itemvalue="PHPUnit.MoneyHandlerServiceTest.testConvertMoneyToPoints" />
       <item itemvalue="PHPUnit.phpunit.xml" />
       <item itemvalue="PHPUnit.tests" />
-      <item itemvalue="PHPUnit.MoneyHandlerServiceTest.testConvertMoneyToPoints" />
+      <item itemvalue="PHP Web Page.lottery" />
     </list>
     <recent_temporary>
       <list>
