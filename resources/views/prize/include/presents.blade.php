@@ -1,3 +1,4 @@
+<h3>Your prize is present</h3>
 <form action="{{ route('prize.points.handle') }}" method="POST">
     {{ csrf_field() }}
 
