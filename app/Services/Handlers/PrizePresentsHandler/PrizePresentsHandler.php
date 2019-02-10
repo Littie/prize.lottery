@@ -21,6 +21,8 @@ class PrizePresentsHandler implements PrizePresentHandlerInterface
      */
     public function deliver(Prize $prize)
     {
+        $prize->update(['is_received' => true]);
+        
         return 'delivered';
     }
 

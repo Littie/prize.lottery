@@ -21,6 +21,8 @@ class PrizePointsHandler implements PrizePointsHandlerInterface
      */
     public function transfer(Prize $prize)
     {
+        $prize->update(['is_received' => true]);
+
         return 'transfered';
     }
 
